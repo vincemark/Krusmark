@@ -1,0 +1,69 @@
+:root {
+    --myblue: rgb(41,128,185);
+    --cyanide: rgb(52,152,219);
+    --cloudyblue: rgb(236,240,241);
+    --juicyorange: rgb(231,76,60);
+    --block: rgb(44,62,80);
+}
+
+.logo {
+    font-style: italic;
+    font-weight: bold;
+    background-color: var(--juicyorange);
+    color: white;
+    padding: 0.2rem 2rem;
+}
+
+a {
+    color: var(--cloudyblue);
+}
+
+.extrapadding {
+    padding-top: 3rem;
+}
+
+.cir-1 {
+    fill: var(--myblue);
+}
+
+.cir-2 {
+    fill: var(--juicyorange);
+}
+
+.cir-3 {
+    fill: var(--block);
+}
+
+.cir-4 {
+    fill: var(--cyanide);
+}
+
+.colormod a {
+    color: var(--cyanide);
+}
+
+.colormod a:hover {
+    color: var(--juicyorange);
+}
+
+code {
+    color: var(--juicyorange);
+}
+
+.doughnutstuffing{
+    background-image: url(../img/kmlogo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 55%;
+}
+
+
+
+
+
+
+
+
+
+
+
